@@ -21,7 +21,7 @@ public class Client {
  
    System.out.println("\n Adding data:");
 
-   for(int j=1;j<=([arr.lenth]-1);j++)
+   for(int j=1;j<=([arr.length]-1);j++)
    {
    
    int x = Hashing.consistentHash(Hashing.md5().hashInt(j), Servers.size());
